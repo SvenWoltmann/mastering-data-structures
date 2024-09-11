@@ -34,12 +34,12 @@ public class ParallelSortingPrimitiveArraysSolution {
     array = ArrayUtils.createRandomArray(SIZE);
   }
 
-  @Benchmark
+  // @Benchmark
   public void sequentialSort() {
     Arrays.sort(array);
   }
 
-  @Benchmark
+  // @Benchmark
   public void parallelSort() {
     Arrays.parallelSort(array);
   }
